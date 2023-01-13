@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="films\css\film.css">
+    <link rel="stylesheet" href="films\css\media.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__block">
+                    <div class="header__logo">
+                        <h1 class="logo">KinoSite</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="films">
+            <div class="container">
+                <div class="films__item" data-id="">
+                    <div class="item__wrapper">
+                        <div class="item__block"></div>
+                    </div>
+                    <table class="item__info">
+                        <tr>
+                            <td class="title">Название</td>
+                            <td class="item__title text"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">год</td>
+                            <td class="item__year text"></td>
+                        </tr> 
+                        <tr>
+                            <td class="title">страна</td>
+                            <td class="item__country text"></td>
+                        </tr>     
+                        <tr>
+                            <td class="title">жанр</td>
+                            <td class="item__genres text"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">время</td>
+                            <td class="item__time  text"></td>
+                        </tr>
+                        <tr>
+                            <td class="title">рейтинг</td>
+                            <td class="item__rating text"></td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- <div class="film__trailer">
+                 
+                </div> -->
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__text">
+                    <p>Разработчик:<h2>Уметов Канат</h2></p>
+                    <p>Версия сайта: <h3>0.1</h3></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="films\film.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+@media (max-width:778px ){
+    .films__item{
+    }
+    .item__info{
+    }
+    .item__block{
+        height: 300px !important;
+        width: 200px !important;
+        margin: 0 auto !important;
+
+    }
+    /* .video iframe{
+        width: 500px !important;
+        height: 300px !important;
+    } */
+}
+@media (max-width:890px ){
+    .films__item{
+        flex-direction: column !important;
+    }
+    .item__info{
+        margin: 30px 0 0 0 !important;
+    }
+}
+
+/* @media (max-width:580px ){
+
+    .video iframe{
+        width: 400px !important;
+        height: 280px !important;
+    }
+    .film__trailer{
+        margin-top: 50px !important;
+    }
+}
+@media (max-width: 460px ){
+    .video iframe{
+        width: 300px !important;
+        height: 200px !important;
+    }
+} */
